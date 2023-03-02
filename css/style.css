@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Karla:wght@500&family=Poiret+One&family=Poppins:wght@300;400;500;700&family=Roboto:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+}
+
+.name-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.name-container h1 {
+    font-size: calc(1em + 5vw);
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1rem;
+    background-color: inherit;
+    margin-bottom: 1rem;
+    margin-right: -1rem;
+    text-align: center;
+}
+
+
+
+
+
