@@ -261,6 +261,10 @@ main .about-me {
     padding: 1em;
 }
 
+.skills .language:hover, .skills .frontend-languages:hover, .skills .backend-frameworks:hover, .skills .db:hover, .skills .tools:hover {
+  transform: scale(1.2);
+}
+
 ul  {
   list-style-type: none;
 }
